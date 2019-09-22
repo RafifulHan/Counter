@@ -17,16 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    int PointA = 0;
 
-    public void clickThreePointA(View view){
-        PointA = PointA + 3;
-        displayThreePointA(PointA);
-    }
-
-    private void displayThreePointA(int setPointA){
-        TextView label = (TextView)findViewById(R.id.pointA);
-        label.setText(setPointA);
-    }
 
 }
